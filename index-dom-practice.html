@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 07 - Part 5</title>
+   
+    <script src="js/dom-practice.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("myFifButton").addEventListener("click", () => {
+                alert("I have been clicked.");
+            })
+        })
+
+    </script>
+
+
+</head>
+<body>
+    <main>
+        <button onclick="getClicked()"> Button1</button>
+
+        <button type="button" id="mySecButton">Button2</button>
+
+        <button type="button" id="myThirdButton">Button3</button>
+
+        <button type="button" id="myForButton">Button4</button>
+
+        <button type="button" id="myFifButton">Button5</button>
+
+    </main>
+    
+</body>
+</html>
